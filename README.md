@@ -65,13 +65,7 @@ Fail `prepare_embeddings.py` loeb [HuffPost News Category Dataset](https://www.k
 Käivitamise näide:
 
 ```bash
-python prepare_embeddings.py --input "C:/path/News_Category_Dataset_v3.json" --output-dir "C:/path/prepared_data"
-```
-
-Windowsi näide:
-
-```bash
-python prepare_embeddings.py --input "C:\path\News_Category_Dataset_v3.json" --output-dir "C:\path\prepared_data"
+python prepare_embeddings.py --input "./News_Category_Dataset_v3.json" --output-dir "./prepared_data"
 ```
 
 Olulisemad parameetrid:
